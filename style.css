@@ -1,0 +1,33 @@
+header{
+    background-color: bisque;
+    padding: 25px;
+    border: 2px solid red;
+}
+
+header div:first-child span a {
+    font-size: 30px;
+    font-weight: bold;
+    color: chocolate;
+    text-decoration: none;
+}
+header>div:nth-child(2) span:first-child a{
+    color: brown;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header div:nth-child(2) span:nth-child(2) a{
+    color: darkkhaki;
+    font-size: 45px;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 30px;
+
+}
+
+header div:nth-child(3) span a{
+    font-size: 30px;
+    font-weight: bold;
+    color: aquamarine;
+}
